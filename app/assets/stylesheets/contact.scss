@@ -1,3 +1,14 @@
 // Place all the styles related to the contact controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.content-contact {
+    height: 500px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px #ada8a8;
+    margin-left: 10%;
+    position: relative;
+    bottom: 50px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
