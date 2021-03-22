@@ -1,0 +1,2 @@
+module CollectifHelper
+end
