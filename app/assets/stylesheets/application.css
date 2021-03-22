@@ -65,7 +65,7 @@ p, a {
     background-color:#122644;
 }
 
-.home-title {
+.outil-title {
     color: #fff;
     text-align: center;
     padding-top: 50px;
@@ -114,4 +114,38 @@ footer {
     margin-left: 10%;
     border-bottom: 1px solid white;
     padding-bottom: 10px;
+}
+
+/* home */
+
+.home-title {
+    color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-home {
+    display: flex;
+}
+
+.image-header-home  {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-header-home img {
+    width: 45%;
+    border-radius: 100px;
+    margin-top: 2.5%;
+}
+
+@media screen and (min-width: 1900px) {
+    .image-header-home img {
+        width: 25%;
+        border-radius: 100px;
+        margin-top: 3%;
+    }
 }

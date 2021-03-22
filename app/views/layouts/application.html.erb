@@ -24,8 +24,24 @@
 
         </ul>
       </nav>
+
       <div class="header-blue">
-      <h1 class="home-title">Les outils pédagogiques à disposition</h1>
+      <% if current_page? ('/outils/index') %>
+          <h1 class="outil-title">Les outils pédagogiques à disposition</h1>
+      <% elsif current_page? ('/') %>
+          <div class="container-home">
+            <h1 class="home-title">
+              Ressources quartiers<br>
+              Solidaire<br>
+              Plateforme d'outils<br>
+              éducatifs et collaboratifs
+            </h1>
+            <div class="image-header-home">
+              <%= image_tag("factice-img.png", :alt => "logo-rhs") %>
+            </div>
+            </div>
+      <% elsif current_page? ('/') %>
+      <% end %>
       </div>
     </header>     
   <%= yield %>
