@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'inspiration/index'
   get 'collectif/index'
   get 'outils/index'
 root 'home#index'

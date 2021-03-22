@@ -157,6 +157,18 @@ footer {
     font-size: 90px;
 }
 
+.h1-boogaloo-inspi {
+    color: #fff;
+    font-family: 'Boogaloo';
+    text-align: center;
+    transform: rotate(-5deg);
+    padding-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 60px;
+}
+
+
 @media screen and (min-width: 1900px) {
     .image-header-home img {
         width: 25%;
