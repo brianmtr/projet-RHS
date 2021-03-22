@@ -78,6 +78,10 @@ footer {
     padding-bottom: 10px;
 }
 
+footer li {
+    font-size: 20px;
+}
+
 .footer-logo img {
     width: 70px;
 }
