@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'oudordodo/index'
   get 'inspiration/index'
   get 'collectif/index'
   get 'outils/index'
