@@ -79,7 +79,7 @@ footer {
 }
 
 footer li {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .footer-logo img {
@@ -178,5 +178,8 @@ footer li {
         width: 25%;
         border-radius: 100px;
         margin-top: 3%;
+    }
+    footer li {
+        font-size: 20px;
     }
 }

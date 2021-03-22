@@ -1,3 +1,15 @@
 // Place all the styles related to the Outils controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.main-content-title-tools {
+    display: flex;
+    justify-content: center;
+}
+
+.keywords {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    color: #ada8a8;
+    margin-bottom: 30px;
+}
