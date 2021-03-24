@@ -18,6 +18,124 @@
 
 .main-content-title {
     display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-content-title button, .main-button button {
+        margin: 30px 0;
+        border: 2px solid #fb2727;
+        border-radius: 5px ;
+        padding: 6px 24px ;
+        font-size: 13px;
+        font-weight: bold ;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #fb2727 ;
+        background-color: #ffffff ;
+        transition: all 0.25s ease-in-out ;
+        &:hover {
+            background-color: #fb2727 ;
+            border-color: #fb2727;
+            color: #ffffff ;
+        }
+}
+
+.line-card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+.line-card-image img {
+    width: 190px;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.line-card-link {
+    width: 116px;
+    height: 95px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ada8a8;
+}
+
+.line-card-link a {
+    color: #ada8a8;
+    font-size: 13px;
+    width: 170px;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.second-page-content {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.second-page-content h2 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.second-content img {
+    width: 200px;
+    height: 300px;
+    border-radius: 40%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-page-content {
+    position: relative;
+    bottom: 50px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px 0 #ada8a8;
+}
+
+.main-content-title {
+    display: flex;
+    flex-direction: row;
     width: 90%;
     justify-content: space-between;
     margin-left: 5%;
@@ -44,6 +162,7 @@
 
 .line-card {
     display: flex;
+    flex-direction: row;
     width: 80%;
     margin-left: 7%;
     align-items: center;
@@ -75,6 +194,7 @@
     flex-direction: column;
     justify-content: center;
     border-left: 1px solid #ada8a8;
+    border-top: 0px;
 }
 
 .line-card-link a {
@@ -96,6 +216,7 @@
 
 .second-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     text-align: left;
     width: 70%;
@@ -105,8 +226,9 @@
 
 .second-content img {
     width: 300px;
-    height: 370px;
+    height: 400px;
     margin-right: 15%;
     border-radius: 40%;
     object-fit: cover;
+}
 }
