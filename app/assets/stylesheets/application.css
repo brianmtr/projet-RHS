@@ -443,6 +443,6 @@ footer li {
 
 @media screen and (min-width: 992px) {
     .nav-mob {
-        display: none;
+        display: nonegit status;
     }
 }
