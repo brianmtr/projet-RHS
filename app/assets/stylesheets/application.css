@@ -271,11 +271,22 @@ h2 {
 }
 
 .navbar li a:hover{
-    color: red;
-    border-bottom: 1px solid red;
+    color: #4ECDDA;
     transition: 1s;
 }
 
+@media screen and (min-width: 1200px){
+    .menuLink:after {
+        display: block;
+        content:'';
+        border-bottom: 3px solid #FF5043;
+        transform: scaleX(0);  
+        transition: transform 0.4s ease-in-out;
+      }
+      .menuLink:hover:after {
+        transform: scaleX(1.5);
+      }
+}
 @media screen and (min-width: 1900px) {
 body {
     margin: 0 auto;
