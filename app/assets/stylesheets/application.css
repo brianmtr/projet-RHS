@@ -35,24 +35,25 @@
     z-index: 1000;
     border: none;
     cursor: pointer;
-    background-color: #494848;
     border-radius: 3px;
     background-size: 100%;
     visibility: visible;
   }
 
   .li-ham {
-      background-color: #122644;
+    height: 60px;
+  }
+
+  .nav-mob {
+      display: flex;
   }
 
   .ham {
-      background-color: #122644;
-      margin-left: 90%;
-      
+      margin-left: 75%;
   }
 
   .ham img {
-      height: 100%;
+      width: 30px;
   }
 
   .nav-ham {
@@ -429,15 +430,19 @@ footer li {
     transition: 1s;
 }
 
+.image-header-home img {
+    width: 25%;
+    border-radius: 100px;
+    margin-top: 3%;
+}
+footer li {
+    font-size: 20px;
 }
 
-@media screen and (min-width: 1900px) {
-    .image-header-home img {
-        width: 25%;
-        border-radius: 100px;
-        margin-top: 3%;
-    }
-    footer li {
-        font-size: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-mob {
+        display: none;
     }
 }
