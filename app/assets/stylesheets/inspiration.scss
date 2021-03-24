@@ -1,3 +1,114 @@
 // Place all the styles related to the inspiration controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.h1-boogaloo-inspi {
+    font-size: 41px !important;
+}
+
+@media screen and (min-width: 992px) {
+    .h1-boogaloo-inspi {
+        color: #fff;
+        font-family: 'Boogaloo';
+        text-align: center;
+        transform: rotate(-5deg);
+        padding-top: 10px;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 70px !important;
+    }
+
+    .pc {
+        display: block !important;
+    }
+    .li-ham {
+        display: none;
+    }
+
+    .content p {
+        font-size: 20px !important;
+      
+    }
+
+    video {
+        height: 400px;
+    }
+
+    /* footer */
+footer {
+    background-color: #122644;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+footer li {
+    font-size: 17px;
+}
+
+.footer-logo img {
+    width: 70px;
+}
+.container-footer {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.text-footer {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.list-files ul, 
+.list-episodes ul {
+    list-style: none;
+}
+
+.bar {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .content-video {
+        width: 80% !important;
+        margin-left: 10%;
+    }
+
+    .content p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .content-list ul {
+        margin-left: 10%;
+    }
+
+    .content-inside {
+        display: flex !important;
+    }
+
+    .content-text-inside {
+        width: 100%;
+        border-right: 1px solid #ada8a8;
+    }
+
+    .content-inside ul li {
+        width: 60% !important;
+    }
+}
