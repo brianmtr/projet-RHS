@@ -228,9 +228,11 @@ footer p{
 }
 
 .image-header-home img {
-    width: 45%;
+    width: 300px;
+    height: 300px;
     border-radius: 100px;
-    margin-top: 2.5%;
+    object-fit: cover;
+    object-position: 62%;
 }
 
 h2 {
