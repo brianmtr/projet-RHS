@@ -13,7 +13,24 @@
   </head>
 
   <body>
-    <header>
+    <header>    
+
+            <li class="li-ham">
+          <button class="ham"><%= image_tag("burger.png", :alt => "logo_facebook") %></button>
+        </li>
+    <nav class="nav-ham mobile" >
+      <div class="container">
+        <ul class="navbar">
+          <li><a class ="menuLink" href="/">Accueil</a></li>
+          <li><a class ="menuLink" href="/outils/index">Outils</a></li>
+          <li><a class ="menuLink" href="/collectif/index">Collectifs RHS</a></li>
+          <li><a class ="menuLink" href="/inspiration/index">Inspiration</a></li>
+          <li><a class ="menuLink" href="/oudordodo/index">Oudordodo</a></li>        
+          <li><a class ="menuLink" href="/contact/index">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>
       <nav class="pc" >
         <ul class="navbar">
           <li class="img"><%= image_tag("logo-rhs.png", :alt => "logo-rhs") %></li>
